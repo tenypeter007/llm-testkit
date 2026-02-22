@@ -12,7 +12,7 @@ try:
 
     __version__ = _get_version("llm-testkit")
 except Exception:
-    __version__ = "0.1.0"
+    __version__ = "0.1.1"
 __all__ = [
     "assert_response",
     "ConsistencyChecker",
